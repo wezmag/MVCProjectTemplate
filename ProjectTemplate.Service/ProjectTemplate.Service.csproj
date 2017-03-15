@@ -41,6 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\EntityService.cs" />
+    <Compile Include="Common\IEntityService.cs" />
+    <Compile Include="Common\IService.cs" />
+    <Compile Include="Interface\ISampleService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SampleService.cs" />
   </ItemGroup>
@@ -48,6 +51,10 @@
     <ProjectReference Include="..\ProjectTemplate.Core\ProjectTemplate.Core.csproj">
       <Project>{E0D81455-ECCF-4DF7-A48E-5FD05ADCACAF}</Project>
       <Name>ProjectTemplate.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectTemplate.Data\ProjectTemplate.Data.csproj">
+      <Project>{3767F709-A6A5-433F-BB21-3D5E1DEE1127}</Project>
+      <Name>ProjectTemplate.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

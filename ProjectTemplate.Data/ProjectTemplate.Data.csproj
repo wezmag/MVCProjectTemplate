@@ -49,29 +49,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\IDataContext.cs" />
+    <Compile Include="Common\IGenericRepository.cs" />
+    <Compile Include="Common\IUnitOfWork.cs" />
     <Compile Include="DataContext.cs" />
+    <Compile Include="Interface\ISampleRepository.cs" />
     <Compile Include="Mapping\SampleMapping.cs" />
-    <Compile Include="Migrations\201703130644384_InitialCreate.cs" />
-    <Compile Include="Migrations\201703130644384_InitialCreate.Designer.cs">
-      <DependentUpon>201703130644384_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201703130710518_Initial.cs" />
-    <Compile Include="Migrations\201703130710518_Initial.Designer.cs">
-      <DependentUpon>201703130710518_Initial.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\Common\GenericRepository.cs" />
+    <Compile Include="Common\GenericRepository.cs" />
     <Compile Include="Repository\SampleRepository.cs" />
     <Compile Include="UnitOfWork.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201703130644384_InitialCreate.resx">
-      <DependentUpon>201703130644384_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201703130710518_Initial.resx">
-      <DependentUpon>201703130710518_Initial.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

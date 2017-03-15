@@ -1,8 +1,5 @@
-﻿using ProjectTemplate.Core.Interface.Service;
-using System;
-using System.Collections.Generic;
+﻿using ProjectTemplate.Service.Interface;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace ProjectTemplate.MVC.Controllers

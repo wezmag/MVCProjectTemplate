@@ -1,14 +1,10 @@
 ﻿using ProjectTemplate.Core.DomainModel.Common;
-using ProjectTemplate.Core.Interface;
-using ProjectTemplate.Core.Interface.Repository.Common;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ProjectTemplate.Data.Repository.Common
+namespace ProjectTemplate.Data.Common
 {
     public abstract class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
     {

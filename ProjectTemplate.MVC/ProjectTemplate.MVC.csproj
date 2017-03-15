@@ -219,6 +219,10 @@
       <Project>{af9569d7-0caf-415e-adbc-88c3645e4b79}</Project>
       <Name>ProjectTemplate.IOC</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ProjectTemplate.Service\ProjectTemplate.Service.csproj">
+      <Project>{84E703FD-7528-4247-A106-0A0CAF6AE5E4}</Project>
+      <Name>ProjectTemplate.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

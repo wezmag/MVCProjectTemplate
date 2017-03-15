@@ -1,13 +1,7 @@
 ﻿using ProjectTemplate.Core.DomainModel;
-using ProjectTemplate.Core.Interface.Service;
+using ProjectTemplate.Data.Common;
 using ProjectTemplate.Service.Common;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ProjectTemplate.Core.Interface;
-using ProjectTemplate.Core.Interface.Repository.Common;
+using ProjectTemplate.Service.Interface;
 
 namespace ProjectTemplate.Service
 {

@@ -1,6 +1,6 @@
 ﻿using ProjectTemplate.Core.DomainModel;
-using ProjectTemplate.Core.Interface;
-using ProjectTemplate.Core.Interface.Entity;
+using ProjectTemplate.Core.DomainModel.Common;
+using ProjectTemplate.Data.Common;
 using System;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration;

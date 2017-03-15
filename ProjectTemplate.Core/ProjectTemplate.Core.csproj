@@ -45,15 +45,8 @@
     <Compile Include="DomainModel\Common\BaseEntity.cs" />
     <Compile Include="DomainModel\Common\Entity.cs" />
     <Compile Include="DomainModel\Sample.cs" />
-    <Compile Include="Interface\Entity\IAuditableEntity.cs" />
-    <Compile Include="Interface\Entity\IEntity.cs" />
-    <Compile Include="Interface\IDataContext.cs" />
-    <Compile Include="Interface\IUnitOfWork.cs" />
-    <Compile Include="Interface\Repository\Common\IGenericRepository.cs" />
-    <Compile Include="Interface\Repository\ISampleRepository.cs" />
-    <Compile Include="Interface\Service\Common\IEntityService.cs" />
-    <Compile Include="Interface\Service\Common\IService.cs" />
-    <Compile Include="Interface\Service\ISampleService.cs" />
+    <Compile Include="DomainModel\Common\IAuditableEntity.cs" />
+    <Compile Include="DomainModel\Common\IEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

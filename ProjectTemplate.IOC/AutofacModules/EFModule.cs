@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using Autofac;
+﻿using Autofac;
 using ProjectTemplate.Data;
-using ProjectTemplate.Core.Interface;
+using ProjectTemplate.Data.Common;
 
 namespace ProjectTemplate.IOC.AutofacModules
 {
